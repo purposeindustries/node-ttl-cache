@@ -1,6 +1,6 @@
 {
   "name": "@purpose/ttl-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple ttl cache",
   "main": "index.js",
   "scripts": {
