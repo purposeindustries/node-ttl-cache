@@ -11,7 +11,7 @@ $ npm i @purpose/ttl-cache
 ## usage
 
 ```js
-import c from '@lennon/ttl-cache';
+import c from '@purpose/ttl-cache';
 
 const cache = c();
 cache.set('foo', 'bar');
