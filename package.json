@@ -1,5 +1,5 @@
 {
-  "name": "@lennon/ttl-cache",
+  "name": "@purpose/ttl-cache",
   "version": "1.0.0",
   "description": "Simple ttl cache",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madbence/node-ttl-cache.git"
+    "url": "git+https://github.com/purposeindustries/node-ttl-cache.git"
   },
   "keywords": [
     "ttl",
@@ -18,9 +18,9 @@
   "author": "Bence Dányi <bence@danyi.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/madbence/node-ttl-cache/issues"
+    "url": "https://github.com/purposeindustries/node-ttl-cache/issues"
   },
-  "homepage": "https://github.com/madbence/node-ttl-cache#readme",
+  "homepage": "https://github.com/purposeindustries/node-ttl-cache#readme",
   "devDependencies": {
     "tape": "^4.4.0"
   }

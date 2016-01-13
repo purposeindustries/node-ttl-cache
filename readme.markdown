@@ -5,7 +5,7 @@
 ## install
 
 ```sh
-$ npm i @lennon/ttl-cache
+$ npm i @purpose/ttl-cache
 ```
 
 ## usage
