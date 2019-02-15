@@ -4,7 +4,7 @@ module.exports = function create(opts) {
   var interval = opts.interval || 1000 * 60;
   var cache = {};
 
-  setInterval(function () {
+  var cacheInterval = setInterval(function () {
     for (var key in cache) {
       if (cache[key].expire <= Date.now()) {
         delete cache[key];
@@ -33,5 +33,10 @@ module.exports = function create(opts) {
     get length() {
       return Object.keys(cache).length;
     },
+
+    destroy: function destroy() {
+      cache = {};
+      clearInterval(cacheInterval);
+    }
   };
 };
